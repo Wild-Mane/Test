@@ -8,9 +8,23 @@
 <body>
 
 <h2>Analisis Iteratif vs Rekursif</h2>
-<p>Jika teks ini rapi, CSS berhasil.</p>
+<p>Perbandingan penghapusan library game menggunakan algoritma Iteratif dan Rekursif.</p>
 
-<button onclick="testJS()">Tes JavaScript</button>
+<div class="container">
+  <div class="box">
+    <h3>Rekursif</h3>
+    <input type="number" id="rekursifInput" placeholder="Total Game">
+    <button onclick="hapusRekursif()">Hapus Game</button>
+    <p id="rekursifTime">Waktu: -</p>
+  </div>
+
+  <div class="box">
+    <h3>Iteratif</h3>
+    <input type="number" id="iteratifInput" placeholder="Total Game">
+    <button onclick="hapusIteratif()">Hapus Game</button>
+    <p id="iteratifTime">Waktu: -</p>
+  </div>
+</div>
 
 <script src="asset/js/script.js"></script>
 </body>
