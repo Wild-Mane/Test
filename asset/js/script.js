@@ -39,3 +39,7 @@ function updateChart() {
   chart.data.datasets[0].data = [rekursifTime, iteratifTime];
   chart.update();
 }
+
+function testJS() {
+  alert("JavaScript berhasil terhubung!");
+}
