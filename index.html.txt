@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Analisis Iteratif vs Rekursif</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<h2>Analisis Iteratif vs Rekursif – Penghapusan Library Game</h2>
+
+<input type="text" placeholder="Nama Member 1">
+<input type="text" placeholder="Nama Member 2">
+
+<div class="container">
+  <div class="box">
+    <h3>Rekursif</h3>
+    <input type="number" id="rekursifTotal" placeholder="Total Game">
+    <button onclick="generateRekursif()">Generate</button>
+    <button onclick="hapusRekursif()">Hapus Seluruh Game</button>
+  </div>
+
+  <div class="box">
+    <h3>Iteratif</h3>
+    <input type="number" id="iteratifTotal" placeholder="Total Game">
+    <button onclick="generateIteratif()">Generate</button>
+    <button onclick="hapusIteratif()">Hapus Seluruh Game</button>
+  </div>
+</div>
+
+<canvas id="chart"></canvas>
+
+<script src="script.js"></script>
+</body>
+</html>
